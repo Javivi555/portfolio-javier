@@ -20,10 +20,10 @@ const projects = [
     tech: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'Planner', 'Teams'],
   },
   {
-    title: 'IA aplicada a documentos médicos y codificación SNOMED',
+    title: 'PoC de IA para documentos médicos y codificación SNOMED',
     description:
-      'Solución basada en Azure OpenAI para responder preguntas sobre documentos PDF y analizar prescripciones médicas, asociándolas a códigos SNOMED.',
-    tech: ['Python', 'Flask', 'Azure OpenAI', 'NLP', 'PDFs', 'SNOMED'],
+      'Prototipo funcional con Python y Azure OpenAI para consultar PDFs y apoyar el análisis de prescripciones médicas, proponiendo códigos SNOMED con validación humana.',
+    tech: ['Python (básico)', 'Flask (básico)', 'Azure OpenAI', 'NLP básico', 'PDFs', 'SNOMED'],
   },
 ]
 

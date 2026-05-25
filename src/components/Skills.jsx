@@ -15,7 +15,7 @@ const skillGroups = [
   },
   {
     title: 'Programación e IA',
-    items: ['Python', 'Flask', 'Azure OpenAI', 'Procesamiento documental', 'NLP'],
+    items: ['Python (básico)', 'Flask (básico)', 'APIs REST', 'Azure OpenAI', 'Prompt engineering', 'NLP básico'],
   },
 ]
 
