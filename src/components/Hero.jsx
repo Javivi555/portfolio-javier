@@ -13,7 +13,7 @@ function Hero() {
         decisiones de negocio.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
-        <a href="#proyectos" className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white">
+        <a href="#proyectos" className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-semibold !text-white">
           Ver proyectos
         </a>
         <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank" rel="noreferrer" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
