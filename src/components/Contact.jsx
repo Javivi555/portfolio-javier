@@ -18,14 +18,14 @@ function Contact() {
           </li>
           <li>
             LinkedIn:{' '}
-            <a className="font-semibold text-white underline decoration-slate-400" href="https://www.linkedin.com/in/tu-linkedin" target="_blank" rel="noreferrer">
-              linkedin.com/in/tu-linkedin
+            <a className="font-semibold text-white underline decoration-slate-400" href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer">
+              linkedin.com/in/javier-escobar-criado-9115b1325
             </a>
           </li>
           <li>
             GitHub:{' '}
-            <a className="font-semibold text-white underline decoration-slate-400" href="https://github.com/tu-usuario" target="_blank" rel="noreferrer">
-              github.com/tu-usuario
+            <a className="font-semibold text-white underline decoration-slate-400" href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer">
+              github.com/Javivi555
             </a>
           </li>
         </ul>

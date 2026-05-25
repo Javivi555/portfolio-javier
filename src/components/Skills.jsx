@@ -14,8 +14,8 @@ const skillGroups = [
     items: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'Planner', 'Teams'],
   },
   {
-    title: 'Programación e IA',
-    items: ['Python (básico)', 'Flask (básico)', 'APIs REST', 'Azure OpenAI', 'Prompt engineering', 'NLP básico'],
+    title: 'Programación e IA aplicada',
+    items: ['Python', 'Flask', 'Azure OpenAI', 'Consulta documental', 'Prompting', 'NLP básico'],
   },
 ]
 

@@ -22,8 +22,8 @@ const projects = [
   {
     title: 'PoC de IA para documentos médicos y codificación SNOMED',
     description:
-      'Prototipo funcional con Python y Azure OpenAI para consultar PDFs y apoyar el análisis de prescripciones médicas, proponiendo códigos SNOMED con validación humana.',
-    tech: ['Python (básico)', 'Flask (básico)', 'Azure OpenAI', 'NLP básico', 'PDFs', 'SNOMED'],
+      'Proyecto exploratorio de IA aplicada a consulta documental y procesamiento de texto clínico, con integración práctica de Azure OpenAI para apoyar la revisión de documentos médicos y la propuesta asistida de códigos SNOMED, sin entrenar modelos avanzados desde cero.',
+    tech: ['Python', 'Flask', 'Azure OpenAI', 'Consulta documental', 'NLP básico', 'SNOMED'],
   },
 ]
 

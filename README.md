@@ -68,7 +68,11 @@ Si el repositorio ya estaba inicializado, omite `git init` y configura solo remo
 
 ## Personalización rápida
 
-- Edita enlaces de LinkedIn y GitHub en:
+- Enlaces activos:
+  - LinkedIn: `https://www.linkedin.com/in/javier-escobar-criado-9115b1325/`
+  - GitHub: `https://github.com/Javivi555`
+  - Email: `mailto:javierec555@gmail.com`
+- Si necesitas cambiarlos, edítalos en:
   - `src/components/Hero.jsx`
   - `src/components/Contact.jsx`
 - Ajusta textos y proyectos en los componentes de `src/components/`.

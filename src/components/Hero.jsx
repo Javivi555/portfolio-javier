@@ -6,20 +6,20 @@ function Hero() {
       </p>
       <h1 className="text-3xl font-semibold text-slate-900 md:text-5xl">Javier Escobar Criado</h1>
       <p className="mt-3 text-sm font-medium uppercase tracking-[0.12em] text-slate-600 md:text-base">
-        Data Analyst | BI · SQL · Automation · IA en desarrollo
+        Matemático y Data Analyst | Power BI · SQL · Automation
       </p>
       <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-700 md:text-lg">
-        Transformo datos operativos en dashboards y automatizaciones útiles para negocio. En programación e IA tengo
-        una base práctica y sigo reforzando conocimientos con proyectos aplicados a casos reales.
+        Transformo datos operativos en dashboards, métricas accionables y automatizaciones que apoyan decisiones de
+        negocio, con experiencia complementaria en IA aplicada a procesos documentales.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
         <a href="#proyectos" className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-semibold !text-white">
           Ver proyectos
         </a>
-        <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank" rel="noreferrer" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
+        <a href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
           LinkedIn
         </a>
-        <a href="https://github.com/tu-usuario" target="_blank" rel="noreferrer" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
+        <a href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
           GitHub
         </a>
         <a href="#contacto" className="rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">
