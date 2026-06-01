@@ -5,11 +5,7 @@ function Contact() {
     <section>
       <SectionTitle id="contacto" eyebrow="Contacto" title="Hablemos" />
       <div className="rounded-2xl border border-slate-200 bg-slate-900 p-6 text-slate-100 md:p-8">
-        <p className="text-base leading-relaxed text-slate-200 md:text-lg">
-          Si quieres colaborar en proyectos de BI, automatización o prototipos de programación e IA aplicada, puedes
-          escribirme por email o conectar conmigo en LinkedIn y GitHub.
-        </p>
-        <ul className="mt-6 space-y-2 text-sm md:text-base">
+        <ul className="space-y-2 text-sm md:text-base">
           <li>
             Email:{' '}
             <a className="font-semibold text-white underline decoration-slate-400" href="mailto:javierec555@gmail.com">
