@@ -9,8 +9,8 @@ function Hero() {
         Matemático y Data Analyst | Power BI · SQL · Automation
       </p>
       <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-700 md:text-lg">
-        Transformo datos operativos en dashboards, métricas accionables y automatizaciones que apoyan decisiones de
-        negocio, con experiencia complementaria en IA aplicada a procesos documentales.
+        Convierto datos operativos en información clara para tomar mejores decisiones: dashboards, métricas de
+        negocio y automatización de procesos.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
         <a href="#proyectos" className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-semibold !text-white">
