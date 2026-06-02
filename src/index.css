@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-  --bg: #f5f7fa;
+  --bg: #f4f7fb;
   --surface: #ffffff;
   --surface-soft: #f8fafc;
   --text: #0f172a;
@@ -17,10 +17,10 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at 15% 15%, #e8eef6 0%, transparent 40%),
-    radial-gradient(circle at 80% 10%, #edf3f9 0%, transparent 35%),
-    var(--bg);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(135deg, rgb(226 232 240 / 0.55) 0%, rgb(248 250 252 / 0) 42%, rgb(219 234 254 / 0.38) 100%),
+    linear-gradient(180deg, #f8fafc 0%, #f3f6fa 48%, #eef4fb 100%);
   color: var(--text);
   font-family: 'Manrope', 'Segoe UI', sans-serif;
 }
