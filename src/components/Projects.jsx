@@ -2,9 +2,9 @@ import SectionTitle from './SectionTitle'
 
 const projects = [
   {
-    title: 'Dashboard de KPIs de soporte / osTicket',
+    title: 'Dashboard de soporte y tiempos de respuesta en osTicket',
     description:
-      'Modelo analítico en Power BI para medir tiempos de primera acción, tickets por departamento, cumplimiento SLA y evolución mensual.',
+      'Desarrollo de un modelo analítico en Power BI para el seguimiento operativo de tickets internos gestionados en osTicket. El proyecto permite analizar volumen de tickets, tiempos hasta primera acción, respuestas o asignaciones iniciales, cumplimiento de umbrales SLA y evolución mensual por departamento o responsable. El objetivo es facilitar el control del servicio, detectar retrasos o cuellos de botella y convertir la actividad de soporte en indicadores claros para la toma de decisiones.',
     tech: ['Power BI', 'DAX', 'SQL', 'Power Query', 'ODBC', 'osTicket'],
   },
   {
@@ -20,10 +20,10 @@ const projects = [
     tech: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'SharePoint', 'Planner', 'Teams'],
   },
   {
-    title: 'PoC de IA para documentos médicos y codificación SNOMED',
+    title: 'PoC de IA documental para consulta de PDFs médicos',
     description:
-      'Proyecto exploratorio de IA aplicada a consulta documental y procesamiento de texto clínico, con integración práctica de Azure OpenAI para apoyar la revisión de documentos médicos y la propuesta asistida de códigos SNOMED, sin entrenar modelos avanzados desde cero.',
-    tech: ['Python', 'Flask', 'Azure OpenAI', 'Consulta documental', 'NLP básico', 'SNOMED'],
+      'Participación en un proyecto exploratorio durante prácticas de máster, basado en una solución de IA ya iniciada para analizar prescripciones médicas y apoyar su traducción a códigos SNOMED. Mi aportación se centró en adaptar parte del código para permitir la lectura de documentos PDF con información médica y mejorar el flujo de consulta, de forma que el modelo pudiera responder preguntas apoyándose en el contenido del documento.',
+    tech: ['Python', 'Azure OpenAI', 'PDFs', 'Consulta documental', 'Prompting', 'SNOMED'],
   },
 ]
 
