@@ -3,19 +3,19 @@ import SectionTitle from './SectionTitle'
 const skillGroups = [
   {
     title: 'Data & BI',
-    items: ['Power BI', 'DAX', 'Power Query', 'Excel avanzado', 'Modelado de datos'],
+    items: ['Power BI', 'DAX', 'Power Query', 'Excel avanzado', 'Modelado de datos', 'KPIs', 'Reporting'],
   },
   {
     title: 'Bases de datos',
-    items: ['SQL', 'MySQL/MariaDB', 'DBeaver', 'ODBC'],
+    items: ['SQL', 'MySQL/MariaDB', 'DBeaver', 'ODBC', 'Conectores de datos'],
   },
   {
     title: 'Automatización',
-    items: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'Planner', 'Teams'],
+    items: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'SharePoint', 'Planner', 'Teams'],
   },
   {
     title: 'Programación e IA aplicada',
-    items: ['Python', 'Flask', 'Azure OpenAI', 'Consulta documental', 'Prompting', 'NLP básico'],
+    items: ['Python', 'R', 'Consulta documental', 'Prompting'],
   },
 ]
 
