@@ -8,16 +8,16 @@ const projects = [
     tech: ['Power BI', 'DAX', 'SQL', 'Power Query', 'ODBC', 'osTicket'],
   },
   {
-    title: 'Análisis retail de stock deseado vs stock recepcionado',
+    title: 'Análisis retail de stock, ventas y oportunidades comerciales',
     description:
-      'Extracción y análisis de datos desde bases relacionales para comparar stock planificado, recepciones reales, tiendas, productos y eventos logísticos.',
+      'Análisis de datos retail para estudiar stock, ventas en tienda y web, comportamiento de productos y diseños, y comparación entre stock planificado, recepciones reales y disponibilidad operativa. El objetivo es detectar patrones, identificar oportunidades comerciales y apoyar decisiones de reposición, seguimiento de producto y análisis de rendimiento.',
     tech: ['SQL', 'DBeaver', 'Power BI', 'Power Query', 'Excel'],
   },
   {
-    title: 'Automatización de procesos internos con Microsoft 365',
+    title: 'Automatización de procesos de RRHH y seguimiento contractual',
     description:
-      'Flujo con Forms, Lists, Planner y Power Automate para estructurar solicitudes internas y mejorar trazabilidad.',
-    tech: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'Planner', 'Teams'],
+      'Automatización del proceso de gestión de movimientos contractuales y vencimientos de contratos para el departamento de RRHH, estructurando la recogida de información, el seguimiento de estados y la generación de informes de apoyo. El objetivo es reducir tareas manuales, mejorar la trazabilidad del proceso y facilitar el control operativo de contratos y acciones pendientes.',
+    tech: ['Power Automate', 'Microsoft Forms', 'Microsoft Lists', 'SharePoint', 'Planner', 'Teams'],
   },
   {
     title: 'PoC de IA para documentos médicos y codificación SNOMED',
