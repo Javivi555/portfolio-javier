@@ -2,25 +2,25 @@ import SectionTitle from './SectionTitle'
 
 function Contact() {
   return (
-    <section>
+    <section className="pb-6">
       <SectionTitle id="contacto" eyebrow="Contacto" title="Hablemos" />
-      <div className="rounded-2xl border border-slate-200 bg-slate-900 p-6 text-slate-100 md:p-8">
-        <ul className="space-y-2 text-sm md:text-base">
-          <li>
-            Email:{' '}
-            <a className="font-semibold text-white underline decoration-slate-400" href="mailto:javierec555@gmail.com">
+      <div className="glass-panel rounded-2xl p-6 md:p-8">
+        <ul className="grid gap-3 text-sm md:grid-cols-3 md:text-base">
+          <li className="rounded-xl border border-white/10 bg-white/[0.04] p-4">
+            <span className="block text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">Email</span>
+            <a className="mt-2 block break-words font-semibold text-white underline decoration-sky-300/40 underline-offset-4 transition hover:text-sky-200" href="mailto:javierec555@gmail.com">
               javierec555@gmail.com
             </a>
           </li>
-          <li>
-            LinkedIn:{' '}
-            <a className="font-semibold text-white underline decoration-slate-400" href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer">
+          <li className="rounded-xl border border-white/10 bg-white/[0.04] p-4">
+            <span className="block text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">LinkedIn</span>
+            <a className="mt-2 block break-words font-semibold text-white underline decoration-sky-300/40 underline-offset-4 transition hover:text-sky-200" href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer">
               linkedin.com/in/javier-escobar-criado-9115b1325
             </a>
           </li>
-          <li>
-            GitHub:{' '}
-            <a className="font-semibold text-white underline decoration-slate-400" href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer">
+          <li className="rounded-xl border border-white/10 bg-white/[0.04] p-4">
+            <span className="block text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">GitHub</span>
+            <a className="mt-2 block break-words font-semibold text-white underline decoration-sky-300/40 underline-offset-4 transition hover:text-sky-200" href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer">
               github.com/Javivi555
             </a>
           </li>

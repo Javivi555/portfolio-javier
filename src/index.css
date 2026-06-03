@@ -1,17 +1,18 @@
 @import 'tailwindcss';
 
 :root {
-  --bg: #f4f7fb;
-  --surface: #ffffff;
-  --surface-soft: #f8fafc;
-  --text: #0f172a;
-  --muted: #475569;
-  --line: #dbe2ea;
-  --accent: #0f4c81;
+  --bg: #080d16;
+  --surface: rgb(15 23 42 / 0.68);
+  --surface-soft: rgb(30 41 59 / 0.52);
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --line: rgb(255 255 255 / 0.1);
+  --accent: #38bdf8;
 }
 
 html {
   scroll-behavior: smooth;
+  background: var(--bg);
 }
 
 body {
@@ -19,16 +20,80 @@ body {
   min-height: 100vh;
   background-color: var(--bg);
   background-image:
-    linear-gradient(135deg, rgb(226 232 240 / 0.55) 0%, rgb(248 250 252 / 0) 42%, rgb(219 234 254 / 0.38) 100%),
-    linear-gradient(180deg, #f8fafc 0%, #f3f6fa 48%, #eef4fb 100%);
+    radial-gradient(rgb(148 163 184 / 0.08) 1px, transparent 1px),
+    linear-gradient(135deg, rgb(56 189 248 / 0.13) 0%, rgb(8 13 22 / 0) 34%),
+    linear-gradient(225deg, rgb(99 102 241 / 0.13) 0%, rgb(8 13 22 / 0) 42%),
+    linear-gradient(180deg, #08111f 0%, #0b1020 48%, #070b13 100%);
+  background-position:
+    center top,
+    center top,
+    center top,
+    center top;
+  background-size:
+    24px 24px,
+    100% 100%,
+    100% 100%,
+    100% 100%;
   color: var(--text);
-  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  font-family: Inter, Manrope, 'Segoe UI', system-ui, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+#root {
+  min-height: 100vh;
+  isolation: isolate;
+}
+
 a {
   color: inherit;
+}
+
+::selection {
+  background: rgb(56 189 248 / 0.28);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(56 189 248 / 0.78);
+  outline-offset: 3px;
+}
+
+.glass-panel {
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(145deg, rgb(15 23 42 / 0.76), rgb(15 23 42 / 0.5)),
+    var(--surface);
+  box-shadow:
+    0 24px 70px rgb(2 6 23 / 0.36),
+    inset 0 1px 0 rgb(255 255 255 / 0.05);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.hero-visual {
+  position: relative;
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgb(148 163 184 / 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(148 163 184 / 0.08) 1px, transparent 1px),
+    linear-gradient(135deg, rgb(56 189 248 / 0.16) 0%, rgb(15 23 42 / 0) 46%, rgb(99 102 241 / 0.14) 100%);
+  background-size:
+    24px 24px,
+    24px 24px,
+    100% 100%;
+}
+
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgb(255 255 255 / 0.1) 48%, transparent 72%);
+  opacity: 0.55;
+}
+
+.hero-visual > * {
+  position: relative;
 }
