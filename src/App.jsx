@@ -6,7 +6,8 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 const navItems = [
-  { href: '#sobre-mi', label: 'Perfil' },
+  { href: '#inicio', label: 'Inicio' },
+  { href: '#sobre-mi', label: 'Sobre mí' },
   { href: '#skills', label: 'Skills' },
   { href: '#proyectos', label: 'Proyectos' },
   { href: '#contacto', label: 'Contacto' },
@@ -61,8 +62,11 @@ function App() {
   return (
     <div className="min-h-screen text-slate-100">
       <header className="site-header sticky top-0 z-30 border-b backdrop-blur-xl">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 md:px-8">
-          <a href="#inicio" className="flex min-w-0 items-center gap-3">
+        <nav
+          className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-5 py-2.5 sm:gap-4 sm:py-3 md:px-8"
+          aria-label="Navegación principal"
+        >
+          <a href="#inicio" className="order-1 flex min-w-0 flex-1 items-center gap-3 sm:flex-none">
             <img
               src="/favicon.svg"
               alt=""
@@ -70,31 +74,29 @@ function App() {
             />
             <span className="truncate text-sm font-semibold text-white">Javier Escobar Criado</span>
           </a>
-          <div className="flex shrink-0 items-center gap-2">
-            <div className="nav-links hidden items-center gap-1 rounded-full border p-1 sm:flex">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="rounded-full px-3 py-1.5 text-xs font-medium transition"
-                >
-                  {item.label}
-                </a>
-              ))}
-            </div>
-            <button
-              type="button"
-              className="theme-toggle"
-              aria-label={isDarkTheme ? 'Activar modo claro' : 'Activar modo oscuro'}
-              title={isDarkTheme ? 'Activar modo claro' : 'Activar modo oscuro'}
-              onClick={toggleTheme}
-            >
-              <span className="theme-toggle__track" aria-hidden="true">
-                <span className="theme-toggle__thumb" />
-              </span>
-              <span className="hidden sm:inline">{isDarkTheme ? 'Oscuro' : 'Claro'}</span>
-            </button>
+          <div className="nav-links order-3 flex w-full min-w-0 items-center gap-1 overflow-x-auto rounded-full border p-1 sm:order-2 sm:w-auto sm:shrink-0 sm:overflow-visible">
+            {navItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="shrink-0 rounded-full px-2.5 py-1.5 text-xs font-medium transition sm:px-3"
+              >
+                {item.label}
+              </a>
+            ))}
           </div>
+          <button
+            type="button"
+            className="theme-toggle order-2 shrink-0 sm:order-3"
+            aria-label={isDarkTheme ? 'Activar modo claro' : 'Activar modo oscuro'}
+            title={isDarkTheme ? 'Activar modo claro' : 'Activar modo oscuro'}
+            onClick={toggleTheme}
+          >
+            <span className="theme-toggle__track" aria-hidden="true">
+              <span className="theme-toggle__thumb" />
+            </span>
+            <span className="hidden sm:inline">{isDarkTheme ? 'Oscuro' : 'Claro'}</span>
+          </button>
         </nav>
       </header>
 

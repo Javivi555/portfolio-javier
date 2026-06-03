@@ -185,16 +185,23 @@ a {
 .nav-links {
   border-color: var(--line);
   background: var(--nav-bg);
+  scrollbar-width: none;
   transition:
     background-color var(--motion-base) var(--motion-ease),
     border-color var(--motion-base) var(--motion-ease);
 }
 
-.nav-links a {
-  color: var(--muted-strong);
+.nav-links::-webkit-scrollbar {
+  display: none;
 }
 
-.nav-links a:hover {
+.nav-links a {
+  color: var(--muted-strong);
+  white-space: nowrap;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
   transform: translateY(-1px);
   color: var(--text-strong);
   background: var(--control-hover);
