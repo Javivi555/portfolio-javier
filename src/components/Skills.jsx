@@ -25,11 +25,11 @@ function Skills() {
       <SectionTitle id="skills" eyebrow="Capacidades" title="Skills" />
       <div className="grid gap-4 md:grid-cols-2">
         {skillGroups.map((group) => (
-          <article key={group.title} className="glass-panel rounded-2xl p-5 transition hover:border-sky-300/20 hover:bg-slate-900/70">
+          <article key={group.title} className="glass-panel motion-card rounded-2xl p-5 transition hover:border-sky-300/20 hover:bg-slate-900/70">
             <h3 className="mb-4 text-lg font-semibold text-white">{group.title}</h3>
             <ul className="flex flex-wrap gap-2">
               {group.items.map((item) => (
-                <li key={item} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-sm text-slate-300">
+                <li key={item} className="motion-chip rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-sm text-slate-300">
                   {item}
                 </li>
               ))}

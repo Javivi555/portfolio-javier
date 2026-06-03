@@ -3,7 +3,7 @@ function Hero() {
     <section id="inicio" className="scroll-mt-28 pb-16 pt-8 md:pb-20 md:pt-12">
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
         <div>
-          <p className="mb-4 inline-flex rounded-full border border-sky-300/20 bg-sky-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-sky-200">
+          <p className="motion-chip mb-4 inline-flex rounded-full border border-sky-300/20 bg-sky-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-sky-200">
             Portfolio Profesional
           </p>
           <h1 className="max-w-4xl text-4xl font-semibold text-white md:text-6xl">
@@ -17,16 +17,16 @@ function Hero() {
             negocio y automatización de procesos.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#proyectos" className="rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2.5 text-sm font-semibold !text-white shadow-lg shadow-sky-950/40 transition hover:from-sky-400 hover:to-indigo-400">
+            <a href="#proyectos" className="motion-button rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2.5 text-sm font-semibold !text-white shadow-lg shadow-sky-950/40 transition hover:from-sky-400 hover:to-indigo-400">
               Ver proyectos
             </a>
-            <a href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
+            <a href="https://www.linkedin.com/in/javier-escobar-criado-9115b1325/" target="_blank" rel="noopener noreferrer" className="motion-button rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
               LinkedIn
             </a>
-            <a href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
+            <a href="https://github.com/Javivi555" target="_blank" rel="noopener noreferrer" className="motion-button rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
               GitHub
             </a>
-            <a href="#contacto" className="rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
+            <a href="#contacto" className="motion-button rounded-lg border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-sky-300/30 hover:bg-white/[0.08] hover:text-white">
               Contacto
             </a>
           </div>
@@ -51,7 +51,7 @@ function Hero() {
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">Enfoque</p>
             <div className="mt-3 flex flex-wrap gap-2">
               {['Big Data', 'Visual Analytics', 'Business Intelligence', 'Microsoft 365'].map((item) => (
-                <span key={item} className="rounded-full border border-sky-300/15 bg-sky-300/10 px-3 py-1 text-xs font-medium text-sky-100">
+                <span key={item} className="motion-chip rounded-full border border-sky-300/15 bg-sky-300/10 px-3 py-1 text-xs font-medium text-sky-100">
                   {item}
                 </span>
               ))}

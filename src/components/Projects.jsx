@@ -32,17 +32,14 @@ function Projects() {
     <section className="mb-16 md:mb-20">
       <SectionTitle id="proyectos" eyebrow="Trabajo" title="Proyectos destacados" />
       <div className="grid gap-4 lg:grid-cols-2">
-        {projects.map((project, index) => (
-          <article key={project.title} className="glass-panel group rounded-2xl p-5 transition hover:border-sky-300/25 hover:bg-slate-900/70 md:p-6">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-sky-300">
-              Proyecto {String(index + 1).padStart(2, '0')}
-            </p>
+        {projects.map((project) => (
+          <article key={project.title} className="glass-panel motion-card group rounded-2xl p-5 transition hover:border-sky-300/25 hover:bg-slate-900/70 md:p-6">
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
             <p className="mt-3 text-sm leading-relaxed text-slate-300 md:text-base">{project.description}</p>
             <p className="mt-5 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">Tecnologías</p>
             <ul className="mt-2 flex flex-wrap gap-2">
               {project.tech.map((item) => (
-                <li key={item} className="rounded-full border border-indigo-300/15 bg-indigo-300/10 px-2.5 py-1 text-xs font-medium text-indigo-100">
+                <li key={item} className="motion-chip rounded-full border border-indigo-300/15 bg-indigo-300/10 px-2.5 py-1 text-xs font-medium text-indigo-100">
                   {item}
                 </li>
               ))}
